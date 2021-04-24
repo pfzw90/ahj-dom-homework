@@ -1,0 +1,37 @@
+body {
+    color: #999;
+}
+
+img {
+    position: relative;
+    object-fit: scale-down;
+
+}
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cell {
+    background: rgb(0, 0, 0);
+    margin: 5px;
+    color: white;
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    flex: 1 0 auto;
+}
+
+.cell:before {
+    content:'';
+    float:left;
+    padding-top:100%;
+}
+
